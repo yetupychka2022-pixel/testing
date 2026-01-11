@@ -1,5 +1,5 @@
-#1
-my_text = "Hello, this is my first Python code"
+
+my_text = "Hello,i'm Yevhen this is my first Python code"
 my_int = 7
 my_float = 3.1415
 my_list = ["apple", my_int, my_float, "text", my_text]

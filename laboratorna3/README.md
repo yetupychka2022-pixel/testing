@@ -5,20 +5,27 @@
 
 ---
 ### Виконання роботи
-* Результати виконання завдання *1*;
+* Результати виконання завдання *2*;
     1. Розробили/Створили першу програму на Python
-    1. Програма вивела значення: Artem start programming at 2025-12-05 15:10:43.036443. Hurtoshitok is the best city!
+    1. Програма вивела значення: "Всі значення заданого коду"
     1. Отримав наступні результати: Програма працює правильно,код спрацював у всіх методах виклику:<<Terminal,bash,jupyter>> файл з розширенням <<ipynb>> вивів результат.
     1. Навчився налаштуванню середовища роботи VS Code та створювати репозиторії в Github
-* вставлені рисунки ![alt text]({D7911FDB-3649-4BA5-A68D-E5DAFA5D6EBD}.png)![alt text]({4B128D18-2D30-4E0D-8128-3D435B79C3BD}.png)
+* вставлені рисунки
+![alt text]({1B6F2898-CEEA-4CC7-A64F-967FBF5AEC29}.png)
+![alt text]({2E67973A-4E95-4A51-B16E-3E491808172F}.png)
     
     
 
 * вставлений код / текстовий або числовий результат / інші результати:
-    - from datetime import datetime
-name = "Maksim"
-location = "Lviv"
-print(f"{name} start programming at {datetime.now()}. {location} is the best city!");
+    - my_text = "Hello,i'm Yevhen this is my first Python code"
+my_int = 7
+my_float = 3.1415
+my_list = ["apple", my_int, my_float, "text", my_text]
+my_dict = {
+    "fruit": "banana",
+    "number": my_int,
+    "message": my_text
+}
 
 * результати виконання індивідуального завдання (якщо такі є);
 
