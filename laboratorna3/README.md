@@ -18,15 +18,37 @@
     ![alt text]({DDA959DD-4562-4960-91B1-E773743A9FBB}.png) -html
 
 * вставлений код / текстовий або числовий результат / інші результати:
-    - my_text = "Hello,i'm Yevhen this is my first Python code"
-my_int = 7
-my_float = 3.1415
-my_list = ["apple", my_int, my_float, "text", my_text]
-my_dict = {
-    "fruit": "banana",
-    "number": my_int,
-    "message": my_text
-}
+    
+class Figure:
+    FIGURES = ["square", "rectangle", "triangle"]
+
+    def __init__(self, type, length) -> None:
+        assert length > 0, "Length must be greater than 0!"
+        assert type in self.FIGURES, "Allowed figures: square, rectangle, triangle"
+        self.type = type
+        self.length = length
+
+    @property
+    def get_figure_type(self):
+        return self.type
+
+    @property
+    def get_figure_length(self):
+        return self.length
+
+    @property
+    def get_angles(self):
+        if self.type in ["square", "rectangle"]:
+            return 4
+        if self.type == "triangle":
+            return 3
+
+
+def test_app_triangle():
+    fig = "triangle"
+    triangle = Figure(fig, 4)
+    assert triangle.type == fig
+
 
 * результати виконання індивідуального завдання (якщо такі є);
 
@@ -40,9 +62,7 @@ my_dict = {
 
 # ChatGPT Response: Basics of Python
 
-I asked ChatGPT: *"How would you explain the basics of Python if I am learning it using Jupyter Notebook?"*
 
-ChatGPT answered as follows:
 
 ---
 
@@ -123,10 +143,7 @@ results:This is a demo file
 
 ```
 ### Висновок:
-# Висновок до роботи
 
-**Тема:** Основи програмування на Python  
-**Мета роботи:** Навчитись застосовувати основні конструкції мови Python, виконати всі приклади та з використанням AI створити власні приклади, які демонструють особливості кодових конструкцій Python.
 
 ---
 
